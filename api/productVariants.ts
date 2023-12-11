@@ -1,0 +1,62 @@
+import { OrderProductVariantDto } from '../../src/app/modules/orders/models/order-product-variant.dto';
+
+export const productVariants: OrderProductVariantDto[] = [];
+
+productVariants.push(
+  {
+    id: '1',
+    name: 'MyNet 300',
+    description: 'Highspeed Internet mit garantierte 300 Mbit/s',
+    newCustomerDiscount: '15',
+    firstTerm: 12,
+    internetDescription: 'Internetbeschreibung',
+    minContractPeriodDescription: 'Beschreibung Mindestvertragslaufzeit',
+    monthlyPriceFirstTerm: '29.90',
+    monthlyPriceSecondTerm: '44,90',
+    provisionFeeDescription: 'Beschreibung Bereitstellungsgebühr',
+    secondTerm: 12,
+    telephonyDescription: 'Beschreibung Telefonie',
+  },
+  {
+    id: '2',
+    name: 'MyNet 400',
+    description: 'Beschreibung Tarif',
+    newCustomerDiscount: '15',
+    firstTerm: 12,
+    internetDescription: 'Internetbeschreibung',
+    minContractPeriodDescription: 'Beschreibung Mindestvertragslaufzeit',
+    monthlyPriceFirstTerm: '29.90',
+    monthlyPriceSecondTerm: '54,90',
+    provisionFeeDescription: 'Beschreibung Bereitstellungsgebühr',
+    secondTerm: 12,
+    telephonyDescription: 'Beschreibung Telefonie',
+  },
+  {
+    id: '3',
+    name: 'MyNet 600',
+    description: 'Beschreibung Tarif',
+    newCustomerDiscount: '15',
+    firstTerm: 12,
+    internetDescription: 'Internetbeschreibung',
+    minContractPeriodDescription: 'Beschreibung Mindestvertragslaufzeit',
+    monthlyPriceFirstTerm: '24.90',
+    monthlyPriceSecondTerm: '64,90',
+    provisionFeeDescription: 'Beschreibung Bereitstellungsgebühr',
+    secondTerm: 12,
+    telephonyDescription: 'Beschreibung Telefonie',
+  },
+  {
+    id: '4',
+    name: 'MyNet 1000',
+    description: 'Beschreibung Tarif',
+    newCustomerDiscount: '15',
+    firstTerm: 12,
+    internetDescription: 'Internetbeschreibung',
+    minContractPeriodDescription: 'Beschreibung Mindestvertragslaufzeit',
+    monthlyPriceFirstTerm: '29.90',
+    monthlyPriceSecondTerm: '74,90',
+    provisionFeeDescription: 'Beschreibung Bereitstellungsgebühr',
+    secondTerm: 12,
+    telephonyDescription: 'Beschreibung Telefonie',
+  }
+);

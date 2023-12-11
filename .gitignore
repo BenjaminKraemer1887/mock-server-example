@@ -1,0 +1,49 @@
+
+# Ignore dependencies
+node_modules/
+bower_components/
+
+# Ignore Angular related files
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
+
+# Ignore IDEs and editors
+.idea/
+
+# Ignore misc
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
+testem.log
+typings/
+
+# Ignore npm/yarn debug log
+debug.log
+npm-debug.log
+yarn-error.log
+
+# Ignore system files
+.DS_Store/
+
+# Ignore CSS maps
+*.css.map
+*.sass.map
+*.scss.map
+
+# Ignore local visual studio code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Ignore all local history of files
+.history
+.ionide
+
+# Ignore data
+api/database.json
